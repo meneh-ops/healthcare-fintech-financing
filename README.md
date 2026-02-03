@@ -161,7 +161,7 @@ Validation queries live in `/sql/06_validation_uat.sql` and cover:
 
 In test runs, these checks reduced previously observed discrepancies between systems to low single‑digit differences (typically under 1–2%) for core funnel metrics, making reports suitable for executive, provider‑partner, and vendor‑facing use.
 
-The notebook `notebooks/01_lending_funnel_case_study.ipynb` walks through these checks, documents any issues found, and records known limitations and assumptions, including examples of healthcare‑specific edge cases (e.g., missing provider IDs or diagnosis codes).
+The notebook `notebooks/lending_funnel_case_study.ipynb` walks through these checks, documents any issues found, and records known limitations and assumptions, including examples of healthcare‑specific edge cases (e.g., missing provider IDs or diagnosis codes).
 
 ---
 
@@ -187,7 +187,7 @@ These results are visualized in:
 - **Vendor & Provider Channel Performance dashboard** – Side‑by‑side comparison of partners, providers, and channels.  
 - **Data Quality Monitor dashboard** – Key validation metrics (missing joins, impossible states, unmapped provider or diagnosis fields) over time.
 
-Dashboard files and screenshots are in `/dashboards/`.
+Dashboard files and screenshots are in `/tableau/`.
 
 ---
 
